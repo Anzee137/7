@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import styles from './index.css';
 
 var audio = new Audio("https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav");
-
+process.env.CI = false;
 class App extends React.Component {
 	constructor(props){
 		super(props);
